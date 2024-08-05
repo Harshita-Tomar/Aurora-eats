@@ -8,7 +8,7 @@ const OurRestaurant = () => {
     <div className="flex justify-center mx-auto py-16">
       <div className="w-[68%] grid grid-cols-2 py-5">
         <div>
-          <div className="pt-12 pb-6  flex justify-center">
+          <div className="pt-12 pb-6 flex justify-center">
             <Image src="/images/resto1_img.jpg" width={470} height={500} />
           </div>
           <div className="py-6 flex justify-center">

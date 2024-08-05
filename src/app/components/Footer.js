@@ -3,17 +3,26 @@ import "@fontsource/montserrat/100.css";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { AiOutlineLinkedin } from "react-icons/ai";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <div className="w-full h-screen">
-      <div className="w-full h-[40%]"></div>
+      <div className="w-full h-[40%] bg-slate-100"></div>
 
-      <div className="w-full h-[60%] bg-slate-600 font-montserrat flex flex-col justify-center ">
+      <div className="w-full h-[60%] bg-slate-600 font-montserrat flex flex-col justify-center relative ">
+        <Image
+          src="/images/footer_sticker.png"
+          width={200}
+          height={200}
+          className="absolute right-8 top-[-20%]"
+        />
         <div className="grid grid-cols-2 text-white">
           <div className="flex flex-col justify-start items-center py-6">
             <div className="text-white w-[65%]">
-              <h3>Join our mailing list for updates</h3>
+              <h3 className="font-medium text-[22px]">
+                Join our mailing list for updates
+              </h3>
               <form>
                 <div className="mt-2 w-full">
                   <div>
@@ -46,6 +55,10 @@ const Footer = () => {
 
           <div className="flex flex-col justify-start items-center py-6">
             <div className="text-white w-[65%]">
+              <h1 className="font-semibold text-[30px]">Talk to Us</h1>
+              <p>123-456-7890 </p>
+              <p className="pb-6">info@auroraeats.com</p>
+
               <p>500 Terry Francine St. </p>
               <p>San Francisco, CA 94158 </p>
               <div className="flex gap-x-4 gap-y-2 py-5">

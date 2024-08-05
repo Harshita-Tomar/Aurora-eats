@@ -14,7 +14,7 @@ const Header = () => {
         <div className="flex gap-7 col-span-3 text-slate-600 items-center justify-end">
           <Link href="/Home">Home</Link>
           <Link href="/About">About</Link>
-          <Link href="#">Menu</Link>
+          <Link href="/Menu">Menu</Link>
           <Link href="#">Order Online</Link>
           <Link href="#">Book a Table</Link>
           <Link href="#">Contact</Link>
