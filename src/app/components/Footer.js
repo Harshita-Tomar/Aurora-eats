@@ -1,5 +1,5 @@
 import React from "react";
-import "@fontsource/montserrat/100.css";
+import "@fontsource/montserrat/300.css";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { AiOutlineLinkedin } from "react-icons/ai";
@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-screen" id="footer">
       <div className="w-full h-[40%] bg-slate-100"></div>
 
       <div className="w-full h-[60%] bg-slate-600 font-montserrat flex flex-col justify-center relative ">

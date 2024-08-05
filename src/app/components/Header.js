@@ -15,9 +15,9 @@ const Header = () => {
           <Link href="/Home">Home</Link>
           <Link href="/About">About</Link>
           <Link href="/Menu">Menu</Link>
-          <Link href="#">Order Online</Link>
-          <Link href="#">Book a Table</Link>
-          <Link href="#">Contact</Link>
+          <Link href="/Order">Order Online</Link>
+          <Link href="/BookTable">Book a Table</Link>
+          <Link href="#footer">Contact</Link>
 
           <div className="relative">
             <span class="absolute inline-flex items-center rounded-md bg-green-700 px-1 py-0 text-[8px] top-[-7px] left-[11px] font-medium text-green-50 ring-1 ring-inset ring-green-600/20">

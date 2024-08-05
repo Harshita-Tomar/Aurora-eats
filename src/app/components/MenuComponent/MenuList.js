@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import "@fontsource/montserrat/400.css";
 
 const MenuList = () => {
   return (

@@ -32,6 +32,8 @@ module.exports = {
       "kitchen1-img": "url('/images/kitchen1.jpg')",
       "kitchen2-img": "url('/images/kitchen2.jpg')",
       "menu-img": "url('/images/menu_img.jpg')",
+      "order-img": "url('/images/order_img.jpg')",
+      "booktable-img": "url('/images/booktable_img.jpg')",
     },
     boxShadow: {
       custom:
