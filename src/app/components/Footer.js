@@ -7,18 +7,27 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="w-full h-screen" id="footer">
-      <div className="w-full h-[40%] bg-slate-100"></div>
+    <div className="w-full" id="footer">
+      <div className="w-full h-[300px] bg-slate-100 relative">
+        <div className="absolute px-2 top-[-40px]">
+          <Image
+            src="/images/menu_sticker4.png"
+            width={200}
+            height={200}
+            className="pe-5 me-2 "
+          />
+        </div>
+      </div>
 
-      <div className="w-full h-[60%] bg-slate-600 font-montserrat flex flex-col justify-center relative ">
+      <div className="w-full bg-slate-600 font-montserrat flex flex-col justify-center relative">
         <Image
           src="/images/footer_sticker.png"
-          width={200}
-          height={200}
-          className="absolute right-8 top-[-20%]"
+          width={160}
+          height={100}
+          className="absolute 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden right-8 top-[-20%]"
         />
-        <div className="grid grid-cols-2 text-white">
-          <div className="flex flex-col justify-start items-center py-6">
+        <div className="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 text-white">
+          <div className="flex flex-col justify-start items-center 2xl:py-6 xl:py-6 lg:py-6 md:py-6 sm:py-10 py-10">
             <div className="text-white w-[65%]">
               <h3 className="font-medium text-[22px]">
                 Join our mailing list for updates

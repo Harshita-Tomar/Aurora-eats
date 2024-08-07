@@ -40,7 +40,15 @@ const MenuList = () => {
                         description
                       </p>
                     </div>
-                    <div> 200</div>
+                    <div className="flex justify-between gap-4 items-center">
+                      <span>200</span>
+                      <Image
+                        src="/images/menu_sticker4.png"
+                        width={100}
+                        height={100}
+                        className="pe-5 me-2"
+                      />
+                    </div>
                   </div>
                 </li>
                 <li className="border-b-2 border-slate-300 py-4">
@@ -70,13 +78,21 @@ const MenuList = () => {
                 <li className="border-b-2 border-slate-300 py-4">
                   <div className="w-full grid grid-cols-4">
                     <div className="col-span-3 flex flex-col">
-                      <h1>Paneer Tikka</h1>
+                      <h1>French Fries</h1>
                       <p className="text-[12px] text-slate-600">
                         This is an item on your menu. Give your item a brief
                         description
                       </p>
                     </div>
-                    <div> 450</div>
+                    <div className="flex justify-between gap-4 items-center">
+                      <span>200</span>
+                      <Image
+                        src="/images/menu_sticker5.png"
+                        width={100}
+                        height={100}
+                        className="pe-5 me-2"
+                      />
+                    </div>
                   </div>
                 </li>
                 <li className="border-b-2 border-slate-300 py-4">
@@ -95,7 +111,7 @@ const MenuList = () => {
 
               <div className="flex justify-start border-b-2 border-slate-300 py-3">
                 <Image
-                  src="/images/menu_sticker.png"
+                  src="/images/menu_sticker2.png"
                   width={100}
                   height={100}
                   className="pe-5 me-2"
@@ -185,7 +201,7 @@ const MenuList = () => {
 
               <div className="flex justify-start border-b-2 border-slate-300 py-3">
                 <Image
-                  src="/images/menu_sticker.png"
+                  src="/images/menu_sticker3.png"
                   width={100}
                   height={100}
                   className="pe-5 me-2"
@@ -268,7 +284,7 @@ const MenuList = () => {
                         description
                       </p>
                     </div>
-                    <div> 20</div>
+                    <div> 200</div>
                   </div>
                 </li>
               </ul>

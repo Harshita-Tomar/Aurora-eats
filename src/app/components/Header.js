@@ -27,7 +27,7 @@ const Header = () => {
           </div>
 
           <div className="flex gap-2">
-            <div>Log in</div>
+            <Link href="/SignIn">Sign in</Link>
             <div>
               <FaUserCircle className="text-[24px]" />
             </div>

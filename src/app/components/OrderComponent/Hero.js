@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="w-full bg-order-img h-[450px] bg-center bg-cover bg-no-repeat flex items-start justify-center overflow-hidden object-cover"></div>
 
       <div className="w-full">
-        <div className="py-8 px-8">
+        <div className=" pt-8 pb-20 px-8">
           <div className="px-6 pb-10">
             <h1 className="text-[60px] font-bold">Order Online</h1>
             <p>

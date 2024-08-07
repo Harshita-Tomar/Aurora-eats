@@ -34,6 +34,7 @@ module.exports = {
       "menu-img": "url('/images/menu_img.jpg')",
       "order-img": "url('/images/order_img.jpg')",
       "booktable-img": "url('/images/booktable_img.jpg')",
+      "signin-img": "url('/images/signin.jpg')",
     },
     boxShadow: {
       custom:

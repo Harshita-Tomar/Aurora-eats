@@ -6,7 +6,7 @@ const HomeOrder = () => {
     <>
       <div className="bg-[#d9dcde]">
         <div className="w-full mt-20 px-8 grid grid-cols-2">
-          <div className="text-slate-600 py-48">
+          <div className="text-slate-600 py-20">
             <h1 className="text-slate-600 text-[30px] italic tracking-normal">
               Order Online
             </h1>
@@ -15,7 +15,7 @@ const HomeOrder = () => {
               would like to order from us.
             </p>
           </div>
-          <div className="relative">
+          {/* <div className="relative">
             <img
               className="absolute h-auto max-w-xl top-[-10%] right-[60%] shadow-x w-[18%] z-10"
               src="/images/order1_img.jpg"
@@ -36,12 +36,12 @@ const HomeOrder = () => {
               src="/images/order4_img.jpg"
               alt="image description"
             />
-          </div>
+          </div> */}
         </div>
       </div>
 
       <div className="w-full ">
-        <div className="grid grid-cols-5 ">
+        <div className="grid grid-cols-5">
           <div className="bg-drink-img h-[450px] w-full bg-no-repeat bg-center bg-cover"></div>
           <div className="bg-coros1-img h-[450px] w-full bg-no-repeat bg-center bg-cover"></div>
           <div className="bg-eats-img h-[450px] w-full bg-no-repeat bg-center bg-cover"></div>
@@ -51,16 +51,16 @@ const HomeOrder = () => {
       </div>
       <div className="bg-[#fbf2e8]">
         <div className="w-full py-20 font-montserrat">
-          <h1 className="text-[60px] text-center font-extrabold tracking-normal">
+          <h1 className="2xl:text-[60px] xl:text-[60px] lg:text-[60px] md:text-[60px] sm:text-[40px] text-[40px] text-center font-extrabold tracking-normal">
             Drop By for a Bite
           </h1>
           <div className="flex justify-center items-start pt-8 ">
-            <div className=" px-16 flex flex-col justify-center text-center ">
+            <div className="2xl:px-16 xl:px-16 lg:px-16 md:px-5 sm:px-5 px-5 flex flex-col justify-center text-center ">
               <h1 className="text-[30px] tracking-normal">Address</h1>
               <p>500 Terry Francine St.</p>
               <p>San Francisco, CA 94158</p>
             </div>
-            <div className="flex flex-col px-16 justify-center text-center border-s-2 border-black">
+            <div className="flex flex-col 2xl:px-16 xl:px-16 lg:px-16 md:px-8 sm:px-4 px-4 justify-center text-center border-s-2 border-black">
               <h1 className="text-[30px] tracking-normal">Opening Hours</h1>
               <p>Mon - Fri: 9am - 6pm</p>
               <p>Saturday: 10am - 2pm</p>
