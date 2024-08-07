@@ -5,7 +5,7 @@ import { MdAccessTimeFilled } from "react-icons/md";
 const HomeBookTable = () => {
   return (
     <div className="w-full bg-table-img h-screen bg-center bg-cover bg-fixed bg-no-repeat flex items-start justify-center overflow-hidden object-cover">
-      <div className="w-[70%] text-center text-white font-poppins  text-[50px] h-full flex flex-col items-center justify-center select-none">
+      <div className="w-[70%] text-center text-white font-poppins text-[50px] h-full flex flex-col items-center justify-center select-none">
         <h1 className="italic">Researve a Table</h1>
         <div className="pt-10 2xl:flex xl:flex lg:flex md:block sm:block block gap-6 w-full">
           <div className="2xl:w-[25%] xl:w-[25%] lg:w-[25%] md:w-full sm:w-full">

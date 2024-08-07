@@ -6,8 +6,8 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 const Interact = () => {
   return (
     <>
-      <div className="w-full bg-slate-700">
-        <div className="grid grid-cols-2 py-10">
+      <div className="w-full bg-slate-900">
+        <div className="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 py-10">
           <div className="flex flex-col justify-start items-center py-6">
             <div className="text-white w-[65%] text-center text-[12px]">
               <h1 className="font-semibold text-[30px] pb-4">
@@ -37,7 +37,7 @@ const Interact = () => {
             <div className="text-white w-[65%] text-center text-[12px]">
               <form>
                 <div className="mt-2 w-full">
-                  <div className="flex justify-between mb-3">
+                  <div className="2xl:flex xl:flex lg:flex md:flex sm:block block justify-between mb-3">
                     <div>
                       <label for="username">First Name*</label>
                       <div className="mb-4">
@@ -67,7 +67,7 @@ const Interact = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="flex justify-between mb-3">
+                  <div className="2xl:flex xl:flex lg:flex md:flex sm:block block justify-between mb-3">
                     <div>
                       <label for="username">Enter your email here*</label>
                       <div className="mb-4">
