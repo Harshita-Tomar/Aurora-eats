@@ -11,7 +11,9 @@ const Hero = () => {
       <div className="w-full">
         <div className=" pt-8 pb-20 px-8">
           <div className="px-6 pb-10">
-            <h1 className="text-[60px] font-bold">Order Online</h1>
+            <h1 className="2xl:text-[60px] xl:text-[60px] lg:text-[60px] md:text-[50px] sm:text-[40px] text-[40px] font-bold">
+              Order Online
+            </h1>
             <p>
               You can order online! Browse our menu items and choose what you
               would like to order from us.
@@ -44,7 +46,7 @@ const Hero = () => {
             <div className="flex gap-4 text-[14px]">
               <p className="flex items-center gap-2">
                 <IoTimeOutline />
-                Pickup time: up to 30 minutes{" "}
+                Pickup time: up to 30 minutes
                 <Link href="#" className="underline hover:font-semibold">
                   Change
                 </Link>
