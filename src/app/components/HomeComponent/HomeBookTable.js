@@ -7,8 +7,8 @@ const HomeBookTable = () => {
     <div className="w-full bg-table-img h-screen bg-center bg-cover bg-fixed bg-no-repeat flex items-start justify-center overflow-hidden object-cover">
       <div className="w-[70%] text-center text-white font-poppins  text-[50px] h-full flex flex-col items-center justify-center select-none">
         <h1 className="italic">Researve a Table</h1>
-        <div className="pt-10 flex gap-6 w-full">
-          <div className="w-[25%]">
+        <div className="pt-10 2xl:flex xl:flex lg:flex md:block sm:block block gap-6 w-full">
+          <div className="2xl:w-[25%] xl:w-[25%] lg:w-[25%] md:w-full sm:w-full">
             <form class="w-full">
               <label
                 for="countries"
@@ -28,7 +28,7 @@ const HomeBookTable = () => {
             </form>
           </div>
 
-          <div className="w-[25%]">
+          <div className="2xl:w-[25%] xl:w-[25%] lg:w-[25%] md:w-full sm:w-full 2xl:pt-0 xl:pt-0 lg:pt-0 md:pt-3 sm:pt-3 pt-3">
             <div class="relative w-full">
               <div>
                 <label
@@ -52,7 +52,7 @@ const HomeBookTable = () => {
             </div>
           </div>
 
-          <div className="w-[25%]">
+          <div className="2xl:w-[25%] xl:w-[25%] lg:w-[25%] md:w-full sm:w-full 2xl:pt-0 xl:pt-0 lg:pt-0 md:pt-3 sm:pt-3 pt-3">
             <form class="w-full">
               <label
                 for="time"
@@ -77,7 +77,7 @@ const HomeBookTable = () => {
             </form>
           </div>
 
-          <div className="w-[15%]">
+          <div className="2xl:w-[15%] xl:w-[15%] lg:w-[15%] md:w-full sm:w-full">
             <button
               type="button"
               class="text-white bg-gradient-to-br from-purple-700 to-blue-400 hover:bg-gradient-to-bl font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 w-full"
