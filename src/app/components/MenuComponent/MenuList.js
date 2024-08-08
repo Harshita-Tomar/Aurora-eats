@@ -20,7 +20,7 @@ const MenuList = () => {
                   src="/images/menu_sticker.png"
                   width={100}
                   height={100}
-                  className="pe-5 me-2"
+                  className="pe-5 me-2" alt=""
                 />
                 <div className="flex flex-col items-start">
                   <h1 className="text-[30px] text-slate-600">Starters</h1>
@@ -46,7 +46,7 @@ const MenuList = () => {
                         src="/images/menu_sticker4.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -66,7 +66,7 @@ const MenuList = () => {
                         src="/images/menu_sticker.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -86,7 +86,7 @@ const MenuList = () => {
                         src="/images/menu_sticker4.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -106,7 +106,7 @@ const MenuList = () => {
                         src="/images/menu_sticker5.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -126,7 +126,7 @@ const MenuList = () => {
                         src="/images/menu_sticker4.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -138,7 +138,7 @@ const MenuList = () => {
                   src="/images/menu_sticker2.png"
                   width={100}
                   height={100}
-                  className="pe-5 me-2"
+                  className="pe-5 me-2" alt=""
                 />
                 <div className="flex flex-col items-start">
                   <h1 className="text-[30px] text-slate-600">Main Courses</h1>
@@ -164,7 +164,7 @@ const MenuList = () => {
                         src="/images/menu_sticker4.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -184,7 +184,7 @@ const MenuList = () => {
                         src="/images/menu_sticker2.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -204,7 +204,7 @@ const MenuList = () => {
                         src="/images/menu_sticker.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -224,7 +224,7 @@ const MenuList = () => {
                         src="/images/menu_sticker5.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -244,7 +244,7 @@ const MenuList = () => {
                         src="/images/menu_sticker2.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -264,7 +264,7 @@ const MenuList = () => {
                         src="/images/menu_sticker6.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -276,7 +276,7 @@ const MenuList = () => {
                   src="/images/menu_sticker3.png"
                   width={100}
                   height={100}
-                  className="pe-5 me-2"
+                  className="pe-5 me-2" alt=""
                 />
                 <div className="flex flex-col items-start">
                   <h1 className="text-[30px] text-slate-600">Desserts</h1>
@@ -302,7 +302,7 @@ const MenuList = () => {
                         src="/images/menu_sticker6.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -322,7 +322,7 @@ const MenuList = () => {
                         src="/images/menu_sticker3.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -342,7 +342,7 @@ const MenuList = () => {
                         src="/images/menu_sticker6.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -362,7 +362,7 @@ const MenuList = () => {
                         src="/images/menu_sticker4.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -382,7 +382,7 @@ const MenuList = () => {
                         src="/images/menu_sticker3.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>
@@ -402,7 +402,7 @@ const MenuList = () => {
                         src="/images/menu_sticker6.png"
                         width={100}
                         height={100}
-                        className="pe-5 me-2"
+                        className="pe-5 me-2" alt=""
                       />
                     </div>
                   </div>

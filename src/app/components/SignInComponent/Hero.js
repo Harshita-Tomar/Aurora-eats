@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="w-full bg-slate-300">
-      <div className="grid grid-cols-3">
+      <div className="grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 grid-cols-1">
         <div className="flex flex-col justify-center items-center py-6">
           <div className="text-black text-center text-[12px] w-full px-10">
             <div className="py-3">
@@ -15,42 +15,42 @@ const Hero = () => {
             <form>
               <div className="mt-2 w-full">
                 <div className="flex mb-3 flex-col text-start">
-                  <label for="username">Username*</label>
+                  <label htmlFor="username">Username*</label>
                   <div className="mb-2 mt-1">
                     <div className="flex shadow-sm border-2 border-slate-700">
                       <input
                         type="text"
                         name="username"
                         id="username"
-                        autocomplete="username"
+                        autoComplete="username"
                         className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-white sm:text-sm sm:leading-6"
                       />
                     </div>
                   </div>
                 </div>
                 <div className="flex mb-3 flex-col text-start">
-                  <label for="email">Enter your email here*</label>
+                  <label htmlFor="email">Enter your email here*</label>
                   <div className="mb-2 mt-1">
                     <div className="flex shadow-sm border-2 border-slate-700">
                       <input
                         type="email"
                         name="email"
                         id="email"
-                        autocomplete="email"
+                        autoComplete="email"
                         className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-white sm:text-sm sm:leading-6"
                       />
                     </div>
                   </div>
                 </div>
                 <div className="flex flex-col mb-6 text-start">
-                  <label for="username">Password</label>
+                  <label htmlFor="username">Password</label>
                   <div className="mb-2 mt-1">
                     <div className="flex shadow-sm border-2 border-slate-700">
                       <input
                         type="password"
                         name="password"
                         id="password"
-                        autocomplete="password"
+                        autoComplete="password"
                         className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-white sm:text-sm sm:leading-6"
                       />
                     </div>

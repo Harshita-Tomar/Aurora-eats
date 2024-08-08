@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className="font-poppins">
+      <body className="font-poppins" >
         <Header />
         {children}
         <Footer />

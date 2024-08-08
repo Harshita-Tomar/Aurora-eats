@@ -53,7 +53,7 @@ const About = () => {
                 src="/images/stamp_img.png"
                 width={120}
                 height={40}
-                className="absolute top-[-15%] left-[0%] z-10"
+                className="absolute top-[-15%] left-[0%] z-10" alt=""
               />
               {/* <Image src="/images/kitchen2.jpg" width={470} height={500} /> */}
             </div>

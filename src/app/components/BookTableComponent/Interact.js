@@ -39,28 +39,28 @@ const Interact = () => {
                 <div className="mt-2 w-full">
                   <div className="2xl:flex xl:flex lg:flex md:flex sm:block block justify-between mb-3">
                     <div>
-                      <label for="username">First Name*</label>
+                      <label htmlFor="username">First Name*</label>
                       <div className="mb-4">
                         <div className="flex shadow-sm border-b-2 border-white">
                           <input
                             type="text"
                             name="first"
                             id="first"
-                            autocomplete="first"
+                            autoComplete="first"
                             className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-white sm:text-sm sm:leading-6"
                           />
                         </div>
                       </div>
                     </div>
                     <div>
-                      <label for="username">Last Name</label>
+                      <label htmlFor="username">Last Name</label>
                       <div className="mb-4">
                         <div className="flex shadow-sm border-b-2 border-white">
                           <input
                             type="text"
                             name="lastname"
                             id="lastname"
-                            autocomplete="first"
+                            autoComplete="first"
                             className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-white sm:text-sm sm:leading-6"
                           />
                         </div>
@@ -69,28 +69,28 @@ const Interact = () => {
                   </div>
                   <div className="2xl:flex xl:flex lg:flex md:flex sm:block block justify-between mb-3">
                     <div>
-                      <label for="username">Enter your email here*</label>
+                      <label htmlFor="username">Enter your email here*</label>
                       <div className="mb-4">
                         <div className="flex shadow-sm border-b-2 border-white">
                           <input
                             type="email"
                             name="username"
                             id="username"
-                            autocomplete="username"
+                            autoComplete="username"
                             className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-white sm:text-sm sm:leading-6"
                           />
                         </div>
                       </div>
                     </div>
                     <div>
-                      <label for="username">Subject</label>
+                      <label htmlFor="username">Subject</label>
                       <div className="mb-4">
                         <div className="flex shadow-sm border-b-2 border-white">
                           <input
                             type="text"
                             name="subject"
                             id="subject"
-                            autocomplete="username"
+                            autoComplete="username"
                             className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-white sm:text-sm sm:leading-6"
                           />
                         </div>
@@ -98,7 +98,7 @@ const Interact = () => {
                     </div>
                   </div>
                   <div className="flex flex-col justify-between mb-6">
-                    <label for="username">Leave Message*</label>
+                    <label htmlFor="username">Leave Message*</label>
                     <div className="mb-4">
                       <div className="flex shadow-sm border-b-2 border-white">
                         <textarea
@@ -106,7 +106,7 @@ const Interact = () => {
                           rows="2"
                           name="message"
                           id="message"
-                          autocomplete="message"
+                          autoComplete="message"
                           className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-white sm:text-sm sm:leading-6"
                         />
                       </div>

@@ -14,7 +14,7 @@ const Footer = () => {
             src="/images/menu_sticker4.png"
             width={200}
             height={200}
-            className="pe-5 me-2 "
+            className="pe-5 me-2 " alt=""
           />
         </div>
       </div>
@@ -24,7 +24,7 @@ const Footer = () => {
           src="/images/footer_sticker.png"
           width={160}
           height={100}
-          className="absolute 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden right-8 top-[-20%]"
+          className="absolute 2xl:flex xl:flex lg:flex md:flex sm:hidden hidden right-8 top-[-20%]" alt=""
         />
         <div className="grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 text-white">
           <div className="flex flex-col justify-start items-center 2xl:py-6 xl:py-6 lg:py-6 md:py-6 sm:py-10 py-10">
@@ -35,14 +35,14 @@ const Footer = () => {
               <form>
                 <div className="mt-2 w-full">
                   <div>
-                    <label for="username">Enter your email here*</label>
+                    <label htmlFor="username">Enter your email here*</label>
                     <div className="mt-2 mb-4">
                       <div className="flex shadow-sm bg-white border-0">
                         <input
                           type="text"
                           name="username"
                           id="username"
-                          autocomplete="username"
+                          autoComplete="username"
                           className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-black sm:text-sm sm:leading-6"
                           placeholder="Email"
                         />
