@@ -4,6 +4,8 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import Image from "next/image";
+import Link from "next/link";
+import { FaArrowUp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -84,9 +86,15 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex items-center justify-center px-3 py-5">
+        <div className="w-full flex items-center justify-center px-3 py-5 relative">
           <div className="text-white text-[20px] font-montserrat tracking-normal">
             Aurora.Eats.Com
+          </div>
+          <div className="absolute right-4 bottom-4">
+            <Link href="#main_header">
+              <button type="button" class="text-white bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 hover:bg-gradient-to-br font-medium rounded-lg text-sm px-2.5 py-2.5 text-center me-2 mb-2"><FaArrowUp className="w-4 h-4" />
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -44,7 +44,7 @@ const [isVisible, setIsVisible] = useState(true);
   }, [lastScrollY]);
 
   return (
-    <div className={`fixed top-0 left-0 w-full bg-slate-200 z-50 transition-transform duration-300 ease-in-out ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
+    <div className={`fixed top-0 left-0 w-full bg-slate-200 z-50 transition-transform duration-300 ease-in-out ${isVisible ? 'translate-y-0' : '-translate-y-full'}`} id="main_header">
       <div className="w-full flex items-center justify-between px-3 h-[80px]">
         <div className="text-slate-600 flex items-center text-3xl">
           AURORA EATS
