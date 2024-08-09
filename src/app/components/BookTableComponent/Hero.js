@@ -1,8 +1,20 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import { IoCalendarClear } from "react-icons/io5";
 import { MdAccessTimeFilled } from "react-icons/md";
 
 const Hero = () => {
+   useEffect(() => {
+  
+    const datepickerEl = document.getElementById('datepicker-autohide');
+    if (datepickerEl) {
+      datepickerEl._datepicker = new window.Datepicker(datepickerEl, {
+        autohide: true,
+        format: 'dd-mm-yyyy',
+      });
+    }
+   }, []);
+  
   return (
     <>
       <div className="w-full bg-slate-900 h-[500px] bg-center bg-cover bg-fixed bg-no-repeat flex items-start justify-center overflow-hidden object-cover">

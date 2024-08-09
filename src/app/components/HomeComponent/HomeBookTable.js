@@ -1,8 +1,20 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import { IoCalendarClear } from "react-icons/io5";
 import { MdAccessTimeFilled } from "react-icons/md";
 
 const HomeBookTable = () => {
+    useEffect(() => {
+  
+    const datepickerEl = document.getElementById('datepicker-autohide');
+    if (datepickerEl) {
+      datepickerEl._datepicker = new window.Datepicker(datepickerEl, {
+        autohide: true,
+        format: 'dd-mm-yyyy',
+      });
+    }
+  }, []);
+    
   return (
     <div className="w-full bg-table-img h-screen bg-center bg-cover bg-fixed bg-no-repeat flex items-start justify-center overflow-hidden object-cover">
       <div className="w-[70%] text-center text-white font-poppins text-[50px] h-full flex flex-col items-center justify-center select-none">
@@ -32,7 +44,7 @@ const HomeBookTable = () => {
             <div className="relative w-full">
               <div>
                 <label
-                  htmlFor="countries"
+                  
                   className="block mb-2 text-sm text-start font-medium text-white"
                 >
                   Date
