@@ -4,8 +4,8 @@ import { IoCalendarClear } from "react-icons/io5";
 import { MdAccessTimeFilled } from "react-icons/md";
 
 const Hero = () => {
-   useEffect(() => {
-  
+  useEffect(() => {
+
     const datepickerEl = document.getElementById('datepicker-autohide');
     if (datepickerEl) {
       datepickerEl._datepicker = new window.Datepicker(datepickerEl, {
@@ -13,8 +13,8 @@ const Hero = () => {
         format: 'dd-mm-yyyy',
       });
     }
-   }, []);
-  
+  }, []);
+
   return (
     <>
       <div className="w-full bg-slate-900 h-[500px] bg-center bg-cover bg-fixed bg-no-repeat flex items-start justify-center overflow-hidden object-cover">
@@ -24,7 +24,7 @@ const Hero = () => {
             <div className="2xl:w-[25%] xl:w-[25%] lg:w-[25%] md:w-full sm:w-full">
               <form className="w-full">
                 <label
-                  htmlFor="countries"
+                  htmlFor="guest"
                   className="block mb-2 text-start text-sm font-medium text-white"
                 >
                   Party Size
@@ -45,7 +45,7 @@ const Hero = () => {
               <div className="relative w-full">
                 <div>
                   <label
-                    htmlFor="countries"
+                    htmlFor="date"
                     className="block mb-2 text-sm text-start font-medium text-white"
                   >
                     Date

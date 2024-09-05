@@ -24,7 +24,9 @@ export default function RootLayout({ children }) {
       </head>
       <body className="font-poppins" >
         <Header />
-        {children}
+        <div className="mt-14">
+          {children}
+        </div>
         <Footer />
         <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
       </body>

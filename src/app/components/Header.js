@@ -8,18 +8,18 @@ import { HiMenu, HiX } from "react-icons/hi";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
-   const closeMenu = () => {
+  const closeMenu = () => {
     setIsOpen(false);
   };
 
- const controlNavbar = () => {
+  const controlNavbar = () => {
     if (typeof window !== 'undefined') {
       if (window.scrollY > lastScrollY) {
         // if scroll down hide the navbar
@@ -75,7 +75,7 @@ const [isVisible, setIsVisible] = useState(true);
               <CiShoppingCart className="text-[24px]" />
             </div>
             <div className="flex gap-2">
-              <Link href="/SignIn" className="p-1 lg:p-0">Sign in</Link>
+              <Link href="/SignIn" onClick={closeMenu} className="p-1 lg:p-0 text-center">Sign in</Link>
               <div>
                 <FaUserCircle className="text-[24px]" />
               </div>

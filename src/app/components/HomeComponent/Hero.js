@@ -3,8 +3,8 @@ import "@fontsource/poppins";
 
 const Hero = () => {
   return (
-    
-     <div className="relative w-full bg-main-bg-img h-screen bg-center bg-cover bg-fixed bg-no-repeat flex items-start justify-center overflow-hidden object-cover">
+
+    <div className="relative w-full bg-main-bg-img h-screen bg-center bg-cover bg-fixed bg-no-repeat flex items-start justify-center overflow-hidden object-cover">
       {/* Black overlay */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
